@@ -12,16 +12,26 @@
 
 "Hello World".include?("Hello")
 
+#The include method is called on the string object "hello world"
+#include job is to make sure the word hello is included in hello world
+
 
 "Hello World".end_with?("Hello")
 
+#The end_with? method is called on the string object "hello world"
+#to see if it ends hello
+#false
 
 "Hello World".end_with?("rld")
 
+#hello world does end with rld
+#true
+
 
 12.even?
-
+#asking if the 12 is even
+#true
 
 18.next
-
-
+# asking what is after 18
+#19
